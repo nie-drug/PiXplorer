@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyApplication</string>
+
+    <string name="settingslib_learn_more_text">Learn more</string>
 </resources>

@@ -36,10 +36,10 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
-import com.projectmaterial.myapplication.R;
-
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
+
+import com.projectmaterial.myapplication.R;
 
 /**
  * This widget is wrapping the collapsing toolbar and can be directly used by the

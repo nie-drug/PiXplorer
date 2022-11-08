@@ -61,52 +61,6 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true">
-        <ScrollView
-            android:id="@+id/navigation_fragment_frame"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_insetEdge="top">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:animateLayoutChanges="true"
-                android:orientation="vertical">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-                    <androidx.appcompat.widget.AppCompatImageView
-                        android:id="@+id/app_icon"
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="28dp"
-                        android:layout_marginBottom="16dp"
-                        android:layout_marginHorizontal="28dp"
-                        app:srcCompat="?attr/colorPrimary"/>
-                    <com.google.android.material.textview.MaterialTextView
-                        android:textAppearance="?attr/textAppearanceTitleLarge"
-                        android:textColor="?android:attr/textColorPrimary"
-                        android:id="@+id/app_name"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginHorizontal="28dp"
-                        android:text="@string/app_name"/>
-                    <com.google.android.material.textview.MaterialTextView
-                        android:textAppearance="?attr/textAppearanceTitleSmall"
-                        android:textColor="?android:attr/textColorPrimary"
-                        android:id="@+id/app_version"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="28dp"
-                        android:layout_marginHorizontal="28dp"
-                        android:text="1.0.0"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:id="@+id/navigation_menu_list"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"/>
-            </LinearLayout>
-        </ScrollView>
+        <include layout="@layout/menu_navigation"/>
     </com.google.android.material.navigation.NavigationView>
 </androidx.drawerlayout.widget.DrawerLayout>

@@ -24,8 +24,9 @@ jobs:
         with:
           java-version: '11'
           distribution: 'zulu'
-      - name: Build a debug APK
+      - name: Gradle Permission
         run: chmod +x gradlew
+      - name: Build a debug APK
         run: ./gradlew assembleDebug
       - name: Stop Gradle Daemon
         run: ./gradlew --stop

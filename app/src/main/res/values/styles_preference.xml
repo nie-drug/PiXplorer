@@ -22,7 +22,6 @@
         <item name="checkBoxPreferenceStyle">@style/SettingsCheckBoxPreference.SettingsLib</item>
         <item name="dialogPreferenceStyle">@style/SettingsPreference.SettingsLib</item>
         <item name="editTextPreferenceStyle">@style/SettingsEditTextPreference.SettingsLib</item>
-        <item name="dropdownPreferenceStyle">@style/SettingsDropdownPreference.SettingsLib</item>
         <item name="switchPreferenceStyle">@style/SettingsSwitchPreference.SettingsLib</item>
         <item name="seekBarPreferenceStyle">@style/SettingsSeekbarPreference.SettingsLib</item>
         <item name="footerPreferenceStyle">@style/Preference.Material</item>
@@ -43,10 +42,6 @@
     <style name="SettingsEditTextPreference.SettingsLib" parent="Preference.DialogPreference.EditTextPreference.Material">
         <item name="layout">@layout/settingslib_preference</item>
         <item name="dialogLayout">@layout/settingslib_preference_dialog_edittext</item>
-        <item name="iconSpaceReserved">@bool/settingslib_config_icon_space_reserved</item>
-    </style>
-    <style name="SettingsDropdownPreference.SettingsLib" parent="Preference.DropDown.Material">
-        <item name="layout">@layout/settingslib_dropdown_preference</item>
         <item name="iconSpaceReserved">@bool/settingslib_config_icon_space_reserved</item>
     </style>
     <style name="SettingsSwitchPreference.SettingsLib" parent="Preference.SwitchPreference.Material">

@@ -22,4 +22,9 @@
     <style name="CollapsingToolbarTitle.Expanded" parent="CollapsingToolbarTitle.Collapsed">
         <item name="android:textSize">36dp</item>
     </style>
+
+    <style name="TextAppearance.Footer.Title.SettingsLib"
+           parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
 </resources>

@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    compileSdkVersion(33)
+    compileSdkVersion(32)
     defaultConfig {
         applicationId = "com.projectmaterial.myapplication"
         minSdkVersion(23)
-        targetSdkVersion(33)
+        targetSdkVersion(32)
         versionCode = 1
         versionName = "1.0.0"
     }

@@ -159,7 +159,7 @@ public class FooterPreference extends Preference {
     }
 
     private void init() {
-        setLayoutResource(R.layout.preference_footer);
+        setLayoutResource(R.layout.settingslib_preference_footer);
         if (getIcon() == null) {
             setIcon(R.drawable.settingslib_ic_info_outline_24);
         }

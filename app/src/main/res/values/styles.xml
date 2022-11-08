@@ -23,8 +23,25 @@
         <item name="android:textSize">36dp</item>
     </style>
 
+    <style name="TextAppearance.PreferenceTitle.SettingsLib"
+           parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/settingslib_text_color_primary</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextAppearance.PreferenceSummary.SettingsLib"
+           parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:textColor">@color/settingslib_text_color_secondary</item>
+    </style>
+
+    <style name="TextAppearance.CategoryTitle.SettingsLib"
+           parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textColor">?android:attr/colorAccent</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
     <style name="TextAppearance.Footer.Title.SettingsLib"
            parent="TextAppearance.Material3.LabelLarge">
-        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textColor">?android:attr/colorAccent</item>
     </style>
 </resources>

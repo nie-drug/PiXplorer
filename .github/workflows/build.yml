@@ -37,12 +37,6 @@ jobs:
       - name: Grant Gradle Permission
         run: chmod +x gradlew
 
-      - name: Check Spotless
-        run: ./gradlew spotlessCheck --init-script gradle/init.gradle.kts --no-configuration-cache --stacktrace
-
-      - name: Check Lint
-        run: ./gradlew lintDemoDebug --stacktrace
-
       - name: Build a debug APK
         run: ./gradlew assembleDebug --stacktrace
 

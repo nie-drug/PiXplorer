@@ -1,18 +1,13 @@
 plugins {
-    id("com.android.application") version "7.3.1"
-}
-
-repositories {
-    google()
-    mavenCentral()
+    id("com.android.application")
 }
 
 android {
-    compileSdkVersion(32)
+    compileSdkVersion(323)
     defaultConfig {
         applicationId = "com.projectmaterial.myapplication"
         minSdkVersion(23)
-        targetSdkVersion(32)
+        targetSdkVersion(33)
         versionCode = 1
         versionName = "1.0.0"
     }

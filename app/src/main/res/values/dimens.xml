@@ -20,4 +20,8 @@
     <dimen name="settingslib_scrim_visible_height_trigger">137dp</dimen>
     <dimen name="expanded_title_margin_start">24dp</dimen>
     <dimen name="expanded_title_margin_end">24dp</dimen>
+    <!-- Left padding of the preference -->
+    <dimen name="settingslib_listPreferredItemPaddingStart">24dp</dimen>
+    <!-- Right padding of the preference -->
+    <dimen name="settingslib_listPreferredItemPaddingEnd">24dp</dimen>
 </resources>

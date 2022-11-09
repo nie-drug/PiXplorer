@@ -5,7 +5,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.projectmaterial.myapplication"
+        applicationId "com.projectmaterial.pixplorer"
         minSdk 23
         targetSdk 33
         versionCode 1

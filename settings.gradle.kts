@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "PiXplorer"
-include ':app'
+include(":app")

@@ -33,7 +33,7 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 
-import com.projectmaterial.myapplication.R;
+import com.projectmaterial.pixplorer.R;
 
 /**
  * A delegate that allows to use the collapsing toolbar layout in hosts that doesn't want/need to

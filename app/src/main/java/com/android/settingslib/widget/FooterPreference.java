@@ -30,7 +30,7 @@ import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceViewHolder;
 
-import com.projectmaterial.myapplication.R;
+import com.projectmaterial.pixplorer.R;
 
 /**
  * A custom preference acting as "footer" of a page. It has a field for icon and text. It is added

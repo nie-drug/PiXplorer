@@ -1,7 +1,10 @@
-apply plugin: 'com.android.application'
-apply plugin: "org.jetbrains.kotlin.android"
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
 
 android {
+    namespace 'com.projectmaterial.pixplorer'
     compileSdk 33
 
     defaultConfig {
@@ -11,13 +14,13 @@ android {
         versionCode 1
         versionName "1.0.0"
     }
+
     buildTypes {
         release {
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8

@@ -39,7 +39,7 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 
-import com.projectmaterial.myapplication.R;
+import com.projectmaterial.pixplorer.R;
 
 /**
  * This widget is wrapping the collapsing toolbar and can be directly used by the

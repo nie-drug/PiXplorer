@@ -29,7 +29,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 
-import com.projectmaterial.myapplication.R;
+import com.projectmaterial.pixplorer.R;
 
 /**
  * A base Activity that has a collapsing toolbar layout is used for the activities intending to

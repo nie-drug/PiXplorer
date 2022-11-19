@@ -21,7 +21,7 @@ import androidx.preference.PreferenceFragmentCompat;
 
 import com.google.android.material.appbar.AppBarLayout;
 
-import com.projectmaterial.myapplication.R;
+import com.projectmaterial.pixplorer.R;
 
 /**
  * A base fragment that supports multi-fragments in one activity. The activity likes to switch the
